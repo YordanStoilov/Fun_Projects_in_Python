@@ -3,7 +3,7 @@ import os
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Fire Rocket")
+pygame.display.set_caption("Fire Blaster")
 
 LIGHT_GREEN = (213, 255, 208)
 BLACK = (0, 0, 0)
