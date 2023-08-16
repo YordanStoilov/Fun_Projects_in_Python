@@ -20,6 +20,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99dbc74a-eb81-47ba-abb2-e6acff3a797a" />
+        <option name="url" value="https://github.com/YordanStoilov/Fun_Projects_in_Python.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2U4rvfhCB4VILqbl0GNZDnmpunU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
