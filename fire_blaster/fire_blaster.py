@@ -43,13 +43,13 @@ def movement_controls_yellow(keys, yellow_ship, speed):
 
 
 def movement_controls_red(keys, red_ship, speed):
-    if keys[pygame.K_LEFT]:
+    if keys[pygame.K_LEFT] and red_ship.x - speed > BORDER.x + 10:
         red_ship.x -= speed
-    if keys[pygame.K_RIGHT]:
+    if keys[pygame.K_RIGHT] and red_ship.x + speed < WIDTH - SHIP_SIZE[1]:
         red_ship.x += speed
-    if keys[pygame.K_UP]:
+    if keys[pygame.K_UP] and red_ship.y - speed > 0:
         red_ship.y -= speed
-    if keys[pygame.K_DOWN]:
+    if keys[pygame.K_DOWN] and red_ship.y + speed + SHIP_SIZE[0] < HEIGHT:
         red_ship.y += speed
 
 
