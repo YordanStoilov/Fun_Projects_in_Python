@@ -4,8 +4,9 @@ import os
 pygame.font.init()
 pygame.mixer.init()
 
-BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Gun+Silencer.wav"))
-BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Grenade+1.wav"))
+BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Laser_shot.wav"))
+BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join("Assets", "III - Zap 3 (C).wav"))
+WINNER_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Fanfare.wav"))
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -73,6 +74,7 @@ def draw_winner(text):
     draw_text = WINNER_FONT.render(text, 1, DARK_BROWN)
     WIN.blit(draw_text, ((WIDTH - draw_text.get_width()) // 2, HEIGHT // 2 - draw_text.get_height()))
     pygame.display.update()
+    WINNER_SOUND.play()
     pygame.time.delay(PAUSE_BEFORE_NEXT_GAME)
 
 
