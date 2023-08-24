@@ -4,8 +4,8 @@ import os
 pygame.font.init()
 pygame.mixer.init()
 
-BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Laser_shot.wav"))
-BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join("Assets", "III - Zap 3 (C).wav"))
+BULLET_HIT_SOUND_FX = pygame.mixer.Sound(os.path.join("Assets", "Laser_shot.wav"))
+BULLET_FIRE_SOUND_FX = pygame.mixer.Sound(os.path.join("Assets", "III - Zap 3 (C).wav"))
 WINNER_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Fanfare.wav"))
 
 WIDTH, HEIGHT = 900, 500
@@ -143,20 +143,20 @@ def main():
                 if event.key == pygame.K_v and len(yellow_bullets) < MAX_BULLETS:
                     bullet = pygame.Rect(yellow.x + yellow.width, yellow.y + yellow.height // 2 - 2, 10, 5)
                     yellow_bullets.append(bullet)
-                    BULLET_FIRE_SOUND.play()
+                    BULLET_FIRE_SOUND_FX.play()
 
                 if event.key == pygame.K_b and len(red_bullets) < MAX_BULLETS:
                     bullet = pygame.Rect(red.x, red.y + red.height // 2 - 2, 10, 5)
                     red_bullets.append(bullet)
-                    BULLET_FIRE_SOUND.play()
+                    BULLET_FIRE_SOUND_FX.play()
 
             if event.type == RED_HIT:
                 red_health -= 1
-                BULLET_HIT_SOUND.play()
+                BULLET_HIT_SOUND_FX.play()
 
             if event.type == YELLOW_HIT:
                 yellow_health -= 1
-                BULLET_HIT_SOUND.play()
+                BULLET_HIT_SOUND_FX.play()
 
         winner_text = ""
         if red_health <= 0:
