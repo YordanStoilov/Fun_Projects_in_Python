@@ -7,6 +7,7 @@ pygame.mixer.init()
 BULLET_HIT_SOUND_FX = pygame.mixer.Sound(os.path.join("Assets", "Laser_shot.wav"))
 BULLET_FIRE_SOUND_FX = pygame.mixer.Sound(os.path.join("Assets", "III - Zap 3 (C).wav"))
 WINNER_SOUND = pygame.mixer.Sound(os.path.join("Assets", "Fanfare.wav"))
+RUSSIAN_MARCH_SOUND = pygame.mixer.Sound(os.path.join("Assets", "c&c_soviet_march.wav"))
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -36,16 +37,16 @@ FPS = 60
 PAUSE_BEFORE_NEXT_GAME = 3000
 
 YELLOW_SPACESHIP_IMAGE = pygame.image.load(
-    os.path.join("Assets", "spaceship_yellow.png"))
+    os.path.join("Assets", "boyko_transparent.png"))
 
 YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(
-    YELLOW_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 90)
+    YELLOW_SPACESHIP_IMAGE, (SPACESHIP_WIDTH + 50, SPACESHIP_HEIGHT + 80)),0)
 
 RED_SPACESHIP_IMAGE = pygame.image.load(
-    os.path.join("Assets", "spaceship_red.png"))
+    os.path.join("Assets", "peevski_transparent.png"))
 
 RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(
-    RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 270)
+    RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH + 60, SPACESHIP_HEIGHT + 80)), 0)
 
 BACKGROUND_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join("Assets", "background.jpeg")), (WIDTH, HEIGHT))
 
@@ -71,6 +72,7 @@ def draw_window(red, yellow, red_bullets, yellow_bullets, yellow_health, red_hea
 
 
 def draw_winner(text):
+    RUSSIAN_MARCH_SOUND.stop()
     draw_text = WINNER_FONT.render(text, 1, DARK_BROWN)
     WIN.blit(draw_text, ((WIDTH - draw_text.get_width()) // 2, HEIGHT // 2 - draw_text.get_height()))
     pygame.display.update()
@@ -120,6 +122,7 @@ def handle_bullets(yellow_bullets, red_bullets, yellow, red):
 
 
 def main():
+    RUSSIAN_MARCH_SOUND.play()
     red = pygame.Rect(700, 300, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
     yellow = pygame.Rect(100, 300, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
 
@@ -160,10 +163,10 @@ def main():
 
         winner_text = ""
         if red_health <= 0:
-            winner_text = "Yellow Wins!"
+            winner_text = "Borisov Wins!"
 
         if yellow_health <= 0:
-            winner_text = "Red Wins!"
+            winner_text = "Peevski Wins!"
 
         if winner_text != "":
             draw_winner(winner_text)
