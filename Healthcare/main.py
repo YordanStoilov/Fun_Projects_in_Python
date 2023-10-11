@@ -20,7 +20,7 @@ def open_window():
 
 
 root = Tk()
-root.geometry("1280x720")
+root.geometry("570x1280")
 root.title("HealthcareApp")
 
 # Creating Name Box:
@@ -38,13 +38,19 @@ age_bar.grid(row=3, column=0)
 # Creating Height Box:
 height_label = Label(root, text="Enter your height")
 height_bar = Entry(root, width=60, borderwidth=8)
-height_label.grid(row=0, column=1)
-height_bar.grid(row=1, column=1)
+height_label.grid(row=4, column=0)
+height_bar.grid(row=5, column=0)
 
 # Creating Weight Box:
 weight_label = Label(root, text="Enter your weight")
 weight_bar = Entry(root, width=60, borderwidth=8)
-weight_label.grid(row=2, column=1)
-weight_bar.grid(row=3, column=1)
+weight_label.grid(row=6, column=0)
+weight_bar.grid(row=7, column=0)
+
+# Creating Blood Pressure Box
+bp_label = Label(root, text="Enter your blood pressure")
+bp_bar = Entry(root, width=60, borderwidth=8)
+bp_label.grid(row=8, column=0)
+bp_bar.grid(row=9, column=0)
 
 root.mainloop()
