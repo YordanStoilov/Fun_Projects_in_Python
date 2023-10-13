@@ -4,7 +4,6 @@ from Class_HealthcareApp import *
 from clients import add_client
 
 current_user_info = {"Name": "", "Age": 0, "Weight": 0, "Height": 0, "Blood Pressure": []}
-data_entered = 0
 
 
 def get_user_vitals():
@@ -25,6 +24,7 @@ def open_new_window():
 
 
 def store_name_info():
+    username = name_bar.get()
     current_user_info["Name"] = username
 
 
@@ -45,12 +45,16 @@ def store_weight_info():
 
 def store_blood_pressure():
     user_blood_pressure = bp_bar.get()
-    current_user_info["Blood Pressure"].append([int(x) for x in user_blood_pressure.split(" ")])
+    blood_pressure_split = [int(x) for x in user_blood_pressure.split(" ")]
+    current_user_info["Blood Pressure"].append(blood_pressure_split[0])
+    current_user_info["Blood Pressure"].append(blood_pressure_split[1])
+    print(blood_pressure_split)
 
 
 def get_ready():
     for key, value in current_user_info.items():
         if not value or value == 0:
+            print(value)
             raise ValueError("Fill all the information bars!")
     add_client(current_user_info)
     open_new_window()
@@ -74,7 +78,7 @@ def open_window():
 
 
 root = Tk()
-root.geometry("650x650")
+root.geometry("750x650")
 root.title("HealthcareApp")
 
 # Creating
@@ -82,7 +86,6 @@ root.title("HealthcareApp")
 # Name Box:
 name_label = Label(root, text="Enter your name")
 name_bar = Entry(root, width=60, borderwidth=8)
-username = name_bar.get()
 name_label.grid(row=0, column=0)
 name_bar.grid(row=1, column=0)
 
@@ -112,7 +115,7 @@ height_bar.grid(row=5, column=0)
 
 # Height Button:
 
-button_height = Button(root, text="Store", command=store_age_info)
+button_height = Button(root, text="Store", command=store_height_info)
 button_height.grid(row=5, column=9)
 
 # Creating
@@ -124,7 +127,7 @@ weight_label.grid(row=6, column=0)
 weight_bar.grid(row=7, column=0)
 
 # Weight Button:
-button_height = Button(root, text="Store", command=store_age_info)
+button_height = Button(root, text="Store", command=store_weight_info)
 button_height.grid(row=7, column=9)
 
 # Creating
@@ -135,11 +138,11 @@ bp_label.grid(row=8, column=0)
 bp_bar.grid(row=9, column=0)
 # Blood Pressure Button:
 
-button_height = Button(root, text="Store", command=store_age_info)
-button_height.grid(row=9, column=9)
+button_bp = Button(root, text="Store", command=store_blood_pressure)
+button_bp.grid(row=9, column=9)
 
 # Button Ready:
 button_ready = Button(root, text="Ready", command=get_ready)
-button_ready.grid(row=10, column=5)
+button_ready.grid(row=12, column=8)
 
 root.mainloop()

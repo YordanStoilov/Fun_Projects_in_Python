@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5768bb2d-7670-4015-9aff-2e5ff205d28d" name="Changes" comment="Changed format, added list to keep user info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/clients.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +178,16 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Healthcare/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Healthcare/main.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
