@@ -1,8 +1,15 @@
 clients = []
 
 
-def add_client(name: str, age: int, weight: float, height: int, blood_pressure: tuple):
+def add_client(dictionary):
+    name = dictionary["Name"]
+    age = dictionary["Age"]
+    weight = dictionary["Weight"]
+    height = dictionary["Height"]
+    blood_pressure = tuple(dictionary["Blood Pressure"])
+
     error_message = "Please enter valid "
+
     if not name or not name.isalpha():
         return f"{error_message}{name}"
     if not isinstance(age, int):
