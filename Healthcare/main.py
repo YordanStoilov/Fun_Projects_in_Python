@@ -67,7 +67,7 @@ def get_ready():
 
 
 root = Tk()
-root.geometry("750x650")
+root.geometry("565x450")
 root.title("HealthcareApp")
 
 # Creating Name Box:
@@ -103,7 +103,7 @@ bp_bar.grid(row=9, column=0)
 
 # Button Ready:
 button_ready = Button(root, text="Ready", command=get_ready)
-button_ready.config(width=15, height=2, borderwidth=8)
-button_ready.grid(row=10, column=3)
+button_ready.config(width=15, height=2)
+button_ready.grid(row=10, column=0)
 
 root.mainloop()
