@@ -31,11 +31,11 @@ class HealthcareApp:
             status = "Low Blood Pressure"
         elif self.blood_pressure[0] < 120 and self.blood_pressure[1] <= 80:
             status = "Normal Blood Pressure"
-        elif 120 <= self.blood_pressure[0] < 130 and self.blood_pressure[1] < 90:
+        elif 120 <= self.blood_pressure[0] < 130 and self.blood_pressure[1] <= 90:
             status = "Elevated Blood Pressure"
-        elif 130 <= self.blood_pressure[0] < 140 and self.blood_pressure[1] < 90:
+        elif 130 <= self.blood_pressure[0] < 140 and self.blood_pressure[1] <= 90:
             status = "Pre-Hypertension"
-        elif 140 <= self.blood_pressure[0] < 160 and self.blood_pressure[1] > 90:
+        elif 140 <= self.blood_pressure[0] < 160 and self.blood_pressure[1] >= 90:
             status = "Stage 1 Hypertension"
         elif self.blood_pressure[0] >= 160 and self.blood_pressure[1] > 100:
             status = "Stage 2 Hypertension"

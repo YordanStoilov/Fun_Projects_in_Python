@@ -24,3 +24,6 @@ def add_client(dictionary):
 
     current_profile = {name: {"Age": age, "Weight": weight}, "Height": height, "Blood Pressure": blood_pressure}
     clients.append(current_profile)
+
+
+print(clients)

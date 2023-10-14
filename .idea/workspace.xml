@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5768bb2d-7670-4015-9aff-2e5ff205d28d" name="Changes" comment="Changed format, added list to keep user info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/Class_HealthcareApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/Class_HealthcareApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/clients.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Healthcare/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "last_opened_file_path": "/Users/yordanstoilov/Documents/GitHub/Fun_Projects_in_Python/fire_blaster"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yordanstoilov/Documents/GitHub/Fun_Projects_in_Python/fire_blaster&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fire_blaster" />
@@ -179,11 +181,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Healthcare/Class_HealthcareApp.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
