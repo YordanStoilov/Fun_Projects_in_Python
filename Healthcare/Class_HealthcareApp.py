@@ -53,18 +53,9 @@ class HealthcareApp:
 
     def get_burned_calories(self, activity: str, minutes: int):
         try:
-            calories_per_minute = self.activities_mets[activity] * (self.weight / 2.2) / 200
+            calories_per_minute = self.activities_mets[activity.lower()] * (self.weight / 2.2) / 200
             total_calories = round(calories_per_minute * minutes, 2)
             return f"Patient Burned Calories while {activity} for {minutes} minutes: {total_calories}"
             # return total_calories
         except KeyError:
             return "Invalid activity!"
-
-
-# patient_1 = HealthcareApp("Yordan", 27, 78, 186, (120, 85))
-#
-# print(patient_1.get_bmi())
-# print(patient_1.get_blood_pressure_status())
-# print(patient_1.get_max_heartrate())
-# print(patient_1.get_goal_pulse())
-# print(patient_1.get_burned_calories("weightlifting", 50))
