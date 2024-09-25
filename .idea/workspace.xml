@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5768bb2d-7670-4015-9aff-2e5ff205d28d" name="Changes" comment="Changed format, added list to keep user info">
+      <change afterPath="$PROJECT_DIR$/ScrapingWikipediaToGetCountriesData/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hacker_news_web_scraper/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/Class_HealthcareApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/Class_HealthcareApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/clients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healthcare/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/100lv.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/100lv.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Fanfare.wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Fanfare.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Grenade+1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Grenade+1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Grenade+1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Grenade+1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Gun+Silencer.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Gun+Silencer.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Gun+Silencer.wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Gun+Silencer.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/III - Zap 3 (C).wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/III - Zap 3 (C).wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/Laser_shot.wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/Laser_shot.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/background.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/boyko_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/boyko_transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/c&amp;c_soviet_march.wav" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/c&amp;c_soviet_march.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/peevski_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/peevski_transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/spaceship_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/spaceship_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/Assets/spaceship_yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/Assets/spaceship_yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/fire_blaster.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulgarian_politics_duel/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire_blaster/main_copy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,30 +47,34 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="99dbc74a-eb81-47ba-abb2-e6acff3a797a" />
-        <option name="url" value="https://github.com/YordanStoilov/Fun_Projects_in_Python.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YordanStoilov/Fun_Projects_in_Python.git",
+    "accountId": "99dbc74a-eb81-47ba-abb2-e6acff3a797a"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2U4rvfhCB4VILqbl0GNZDnmpunU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yordanstoilov/Documents/GitHub/Fun_Projects_in_Python/fire_blaster&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yordanstoilov/Documents/GitHub/Fun_Projects_in_Python/fire_blaster"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fire_blaster" />
@@ -63,9 +84,10 @@
       <recent name="$PROJECT_DIR$/fire_blaster/Assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="fire_blaster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="fire_blaster" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Fun_Projects_in_Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -85,8 +107,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fun_Projects_in_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Healthcare" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Healthcare/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Fun_Projects_in_Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -106,11 +151,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="password_checker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fun_Projects_in_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/password_checker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/password_checker/password_checker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fire_blaster" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.password_checker" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -181,6 +256,16 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hacker_news_web_scraper/main.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hacker_news_web_scraper/main.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
